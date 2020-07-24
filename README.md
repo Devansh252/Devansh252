@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Devansh252/Devansh252/master/Devansh.png" alt="banner that says Devansh developer">
 
-I'm a Electronics and Communication engineer who is passionate about developing, creating technology to elevate people, and building community. Some technologies I enjoy working with include ReactJS and frontend Web-development using bootstrap and IOT.
+I'm a Electronics and Communication engineer who is passionate about developing, creating technology to elevate people, and building community. Some technologies I enjoy working with ReactJS and frontend Web-development using bootstrap and IOT.
 
 
 ## Find me around the web 🌎:
