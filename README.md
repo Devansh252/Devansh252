@@ -2,7 +2,11 @@
 
 <img src="https://raw.githubusercontent.com/Devansh252/Devansh252/master/Devansh.png" alt="banner that says Devansh developer">
 
-I'm a Electronics and Communication engineer who is passionate about developing, creating technology to elevate people, and building community. Some technologies I enjoy working with ReactJS and frontend Web-development using bootstrap and IOT.
+I'm a Electronics and Communication engineer who is passionate about developing, creating technologies to elevate people and building community. Some technologies I enjoy working with are Nodejs, ReactJs, MongoDB and express. I have done projects both in the fields of Computer Science and Electronics as well.
+
+I am a Tech Enthusiast and likes to do competitive programming in Python !
+My interests resides in Web-development and Software-development.
+
 
 
 ## Find me around the web 🌎:
