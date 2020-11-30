@@ -7,5 +7,7 @@ I'm a Electronics and Communication engineer who is passionate about developing,
 
 ## Find me around the web 🌎:
 
-- Sharing updates on <a href="https://www.linkedin.com/in/devansh-shukla-433956169/">LinkedIn</a> 💼
-- Have a conversation  <a href="https://www.instagram.com/i.am.devansh/"> Instagram </a>
+- Sharing updates on <a href="https://www.linkedin.com/in/devansh-shukla-433956169"> LinkedIn </a> 💼
+- Have a conversation  <a href="https://www.instagram.com/i.am.devansh/"> Instagram </a> 👾
+- Checkout my Coding Skills <a href="https://www.hackerrank.com/shukladevansh007"> Hackerrank </a> 💻
+- Portfolio webpage <a href="https://devansh252.github.io/portfolio/#"> Hi </a>
