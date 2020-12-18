@@ -1,6 +1,6 @@
 # Hi, I'm Devansh 👋🏾 👩🏾‍💻
 
-<img src="https://raw.githubusercontent.com/Devansh252/Devansh252/master/Devansh.gif" alt="banner that says Devansh developer">
+<img src="https://raw.githubusercontent.com/Devansh252/Devansh252/master/d.gif" alt="banner that says Devansh developer">
 
 I'm a Electronics and Communication engineer who is passionate about developing, creating technologies to elevate people and building community. Some technologies I enjoy working with are Nodejs, ReactJs, MongoDB and express. I have done projects both in the fields of Computer Science and Electronics as well.
 
