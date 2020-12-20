@@ -1,4 +1,14 @@
 # Hi, I'm Devansh 👋🏾 👩🏾‍💻
+![](https://komarev.com/ghpvc/?username=Devansh252&color=lightgrey)
+
+## I'm a Developer and a Engineering Student!!
+
+- 🔭 I m Curious!
+- 🌱 I’m currently learning everything 🤣
+- 👯 I’m looking to collaborate with a community for creatin Projects
+- 🥅 2021 Goals: Contribute more to Open Source projects
+- 🎮 I love to create things and play Video Games
+
 
 <img src="https://raw.githubusercontent.com/Devansh252/Devansh252/master/d.gif" alt="banner that says Devansh developer">
 
@@ -7,6 +17,14 @@ I'm a Electronics and Communication engineer who is passionate about developing,
 I am a Tech Enthusiast and likes to do competitive programming in Python !
 My interests resides in Web-development and Software-development.
 
+
+
+## Find me around the web 🌎:
+
+- Sharing updates on <a href="https://www.linkedin.com/in/devansh-shukla-433956169"> LinkedIn </a> 💼
+- Have a conversation  <a href="https://www.instagram.com/i.am.devansh/"> Instagram </a> 👾
+- Checkout my Coding Skills <a href="https://www.hackerrank.com/shukladevansh007"> Hackerrank </a> 💻
+- Portfolio webpage <a href="https://devanshukla.co/"> Hi </a>
 
 ### Languages and Tools:
 
@@ -25,11 +43,3 @@ My interests resides in Web-development and Software-development.
 <br />
 
 ---
-
-
-## Find me around the web 🌎:
-
-- Sharing updates on <a href="https://www.linkedin.com/in/devansh-shukla-433956169"> LinkedIn </a> 💼
-- Have a conversation  <a href="https://www.instagram.com/i.am.devansh/"> Instagram </a> 👾
-- Checkout my Coding Skills <a href="https://www.hackerrank.com/shukladevansh007"> Hackerrank </a> 💻
-- Portfolio webpage <a href="https://devanshukla.co/"> Hi </a>
