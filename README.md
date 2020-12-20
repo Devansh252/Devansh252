@@ -5,7 +5,7 @@
 
 - 🔭 I m Curious!
 - 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with a community for creatin Projects
+- 👯 I’m looking to collaborate with a community for Building and Learning.
 - 🥅 2021 Goals: Contribute more to Open Source projects
 - 🎮 I love to create things and play Video Games
 
