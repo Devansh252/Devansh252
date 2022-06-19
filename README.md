@@ -4,7 +4,7 @@
 ## I'm a Developer and a Engineering Student!!
 
 - 🔭 I m Curious!
-- 🌱 I’m currently learning Angular !
+- 🌱 I’m currently learning Web3.0 🚀 !
 - 👯 I’m looking to collaborate with a community for Building and Learning.
 - 🥅 2021 Goals: Contribute more to Open Source projects
 - 🎮 I love to create things and play Video Games
