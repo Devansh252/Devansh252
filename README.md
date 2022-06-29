@@ -25,7 +25,7 @@ My interests resides in Web-development and Software-development.
 - Sharing updates on <a href="https://www.linkedin.com/in/devansh-shukla-433956169"> LinkedIn </a> 💼
 - Have a conversation  <a href="https://www.instagram.com/i.am.devansh/"> Instagram </a> 👾
 - Checkout my Coding Skills <a href="https://www.hackerrank.com/shukladevansh007"> Hackerrank </a> 💻
-- Portfolio webpage <a href="https://devanshukla.co/"> Hi </a>
+- Portfolio webpage <a href="https://devanshukla-portfolio.netlify.app/"> Hi </a>
 
 ### Languages and Tools:
 
