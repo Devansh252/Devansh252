@@ -1,7 +1,7 @@
 # Hi, I'm Devansh 👋🏾 👩🏾‍💻
 ![](https://komarev.com/ghpvc/?username=Devansh252&color=lightgrey)
 
-## I'm a Developer and a Engineering Student!!
+## I'm a Developer and a Engineer!!
 
 - 🔭 I m Curious!
 - 🌱 I’m currently learning Web3.0 🚀 !
