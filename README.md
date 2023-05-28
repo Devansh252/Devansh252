@@ -6,18 +6,18 @@
 - 🔭 I m Curious!
 - 🌱 I’m currently learning Web3.0 🚀 !
 - 👯 I’m looking to collaborate with a community for Building and Learning.
-- 🥅 2022 Goals: Contribute more to Open Source projects and Blockchain !!
+- 🥅 2023 Goals: Contribute more to Open Source projects and Blockchain !!
 - 🎮 I love to create things and play Video Games
 
 
 
 
 ### A bit about ME !
-I'm a Electronics and Communication engineer who is passionate about developing, creating technologies to elevate people and building community. Some technologies I enjoy working with are Nodejs, ReactJs, MongoDB and express. I have done projects both in the fields of Computer Science and Electronics as well.
+Devansh is passionate and detail-oriented ReactJS web developer with a strong foundation in front-end development. He thrive in crafting seamless user experiences and building robust, scalable web applications using modern web technologies.
 
-I am a Tech Enthusiast and likes to do competitive programming in Python !
-My interests resides in Web-development and Software-development.
+With 2.5+ years of experience, he have a deep understanding of ReactJS and its ecosystem. He have successfully delivered numerous projects, leveraging his expertise in React components, state management (Redux/Context API), and responsive design principles.
 
+In addition to his technical skills, Devansh is a avid learner who keeps up with the latest trends and advancements in web development. He is constantly exploring new tools and frameworks to enhance his skill set and improve his efficiency.
 
 
 ## Find me around the web 🌎:
