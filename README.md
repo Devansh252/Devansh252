@@ -6,7 +6,7 @@
 - 🔭 I m Curious!
 - 🌱 I’m currently learning Web3.0 🚀 !
 - 👯 I’m looking to collaborate with a community for Building and Learning.
-- 🥅 2023 Goals: Contribute more to Open Source projects and Blockchain !!
+- 🥅 2024 Goals: Contribute more to my skills !!
 - 🎮 I love to create things and play Video Games
 
 
