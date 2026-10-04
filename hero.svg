@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Courier New', Courier, monospace">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="1" stop-color="#1b1f4b"/>
+    </linearGradient>
+    <g id="far">
+      <rect x="0" y="150" width="60" height="80" fill="#1e2254"/>
+      <rect x="70" y="120" width="40" height="110" fill="#1e2254"/>
+      <rect x="120" y="165" width="80" height="65" fill="#1e2254"/>
+      <rect x="215" y="105" width="35" height="125" fill="#1e2254"/>
+      <rect x="260" y="140" width="70" height="90" fill="#1e2254"/>
+      <rect x="345" y="125" width="45" height="105" fill="#1e2254"/>
+      <rect x="400" y="160" width="90" height="70" fill="#1e2254"/>
+      <rect x="505" y="110" width="40" height="120" fill="#1e2254"/>
+      <rect x="555" y="150" width="75" height="80" fill="#1e2254"/>
+      <rect x="645" y="130" width="50" height="100" fill="#1e2254"/>
+      <rect x="705" y="165" width="95" height="65" fill="#1e2254"/>
+    </g>
+    <g id="near">
+      <rect x="20" y="180" width="50" height="50" fill="#2a2f6e"/>
+      <rect x="28" y="188" width="6" height="6" fill="#fbbf24" opacity=".7"/>
+      <rect x="150" y="165" width="40" height="65" fill="#2a2f6e"/>
+      <rect x="158" y="175" width="6" height="6" fill="#fbbf24" opacity=".7"/>
+      <rect x="170" y="195" width="6" height="6" fill="#fbbf24" opacity=".5"/>
+      <rect x="300" y="185" width="70" height="45" fill="#2a2f6e"/>
+      <rect x="440" y="170" width="35" height="60" fill="#2a2f6e"/>
+      <rect x="448" y="180" width="6" height="6" fill="#fbbf24" opacity=".7"/>
+      <rect x="580" y="182" width="60" height="48" fill="#2a2f6e"/>
+      <rect x="595" y="192" width="6" height="6" fill="#fbbf24" opacity=".6"/>
+      <rect x="720" y="172" width="45" height="58" fill="#2a2f6e"/>
+    </g>
+  </defs>
+
+  <style>
+    .scroll-far  { animation: scroll 24s linear infinite; }
+    .scroll-near { animation: scroll 12s linear infinite; }
+    .tiles       { animation: tiles .6s linear infinite; }
+    @keyframes scroll { to { transform: translateX(-800px); } }
+    @keyframes tiles  { to { transform: translateX(-40px); } }
+
+    .star { animation: twinkle 2.4s ease-in-out infinite; }
+    .s2 { animation-delay: .6s } .s3 { animation-delay: 1.2s } .s4 { animation-delay: 1.8s }
+    @keyframes twinkle { 50% { opacity: .15; } }
+
+    .player { animation: jump 3s infinite; }
+    @keyframes jump {
+      0%, 66%  { transform: translateY(0);     animation-timing-function: ease-out; }
+      74%      { transform: translateY(-78px); animation-timing-function: linear; }
+      80%      { transform: translateY(-78px); animation-timing-function: ease-in; }
+      88%,100% { transform: translateY(0); }
+    }
+    .legA { animation: run .3s steps(1) infinite; }
+    .legB { animation: run .3s steps(1) infinite reverse; }
+    @keyframes run { 0% { opacity: 1 } 50% { opacity: 0 } }
+
+    .ob { animation: move 9s linear infinite; }
+    .o2 { animation-delay: 3s } .o3 { animation-delay: 6s }
+    @keyframes move {
+      0%        { transform: translateX(0); }
+      33.333%   { transform: translateX(-900px); }
+      100%      { transform: translateX(-900px); }
+    }
+    .coin { animation: grab 9s linear infinite; }
+    .o2 .coin { animation-delay: 3s } .o3 .coin { animation-delay: 6s }
+    @keyframes grab { 0%, 24% { opacity: 1 } 25%, 99% { opacity: 0 } }
+
+    .xp { animation: xp 3s infinite; opacity: 0; }
+    @keyframes xp {
+      0%, 76% { opacity: 0; transform: translateY(0); }
+      80%     { opacity: 1; }
+      96%     { opacity: 0; transform: translateY(-24px); }
+      100%    { opacity: 0; }
+    }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+  </style>
+
+  <rect width="800" height="280" fill="url(#sky)"/>
+
+  <!-- stars + moon -->
+  <circle class="star"    cx="60"  cy="70"  r="1.6" fill="#fff"/>
+  <circle class="star s2" cx="190" cy="48"  r="1.2" fill="#fff"/>
+  <circle class="star s3" cx="330" cy="95"  r="1.4" fill="#fff"/>
+  <circle class="star s4" cx="470" cy="60"  r="1.2" fill="#fff"/>
+  <circle class="star"    cx="560" cy="100" r="1.4" fill="#fff"/>
+  <circle class="star s3" cx="760" cy="85"  r="1.6" fill="#fff"/>
+  <path d="M628 81 A20 20 0 1 0 640 111 A16 16 0 0 1 628 81 Z" fill="#fde68a"/>
+
+  <!-- parallax city -->
+  <g class="scroll-far"><use href="#far"/><use href="#far" x="800"/></g>
+  <g class="scroll-near"><use href="#near"/><use href="#near" x="800"/></g>
+
+  <!-- ground -->
+  <rect x="0" y="230" width="800" height="50" fill="#0f172a"/>
+  <rect x="0" y="230" width="800" height="3" fill="#6366f1"/>
+  <g class="tiles" fill="#334155">
+    <rect x="0" y="244" width="20" height="3"/><rect x="40" y="244" width="20" height="3"/>
+    <rect x="80" y="244" width="20" height="3"/><rect x="120" y="244" width="20" height="3"/>
+    <rect x="160" y="244" width="20" height="3"/><rect x="200" y="244" width="20" height="3"/>
+    <rect x="240" y="244" width="20" height="3"/><rect x="280" y="244" width="20" height="3"/>
+    <rect x="320" y="244" width="20" height="3"/><rect x="360" y="244" width="20" height="3"/>
+    <rect x="400" y="244" width="20" height="3"/><rect x="440" y="244" width="20" height="3"/>
+    <rect x="480" y="244" width="20" height="3"/><rect x="520" y="244" width="20" height="3"/>
+    <rect x="560" y="244" width="20" height="3"/><rect x="600" y="244" width="20" height="3"/>
+    <rect x="640" y="244" width="20" height="3"/><rect x="680" y="244" width="20" height="3"/>
+    <rect x="720" y="244" width="20" height="3"/><rect x="760" y="244" width="20" height="3"/>
+    <rect x="800" y="244" width="20" height="3"/>
+  </g>
+
+  <!-- obstacles with coins above them -->
+  <g class="ob o1">
+    <rect x="820" y="202" width="56" height="28" fill="#ef4444"/>
+    <text x="848" y="221" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">BUG</text>
+    <g class="coin"><circle cx="848" cy="140" r="12" fill="#fbbf24"/><text x="848" y="145" font-size="12" font-weight="bold" fill="#78350f" text-anchor="middle">TS</text></g>
+  </g>
+  <g class="ob o2">
+    <rect x="820" y="202" width="56" height="28" fill="#f97316"/>
+    <text x="848" y="221" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">any</text>
+    <g class="coin"><circle cx="848" cy="140" r="12" fill="#fbbf24"/><text x="848" y="145" font-size="12" font-weight="bold" fill="#78350f" text-anchor="middle">RN</text></g>
+  </g>
+  <g class="ob o3">
+    <rect x="820" y="202" width="56" height="28" fill="#a855f7"/>
+    <text x="848" y="221" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">CORS</text>
+    <g class="coin"><circle cx="848" cy="140" r="12" fill="#fbbf24"/><text x="848" y="145" font-size="12" font-weight="bold" fill="#78350f" text-anchor="middle">WS</text></g>
+  </g>
+
+  <!-- player -->
+  <g class="player">
+    <rect x="144" y="192" width="24" height="22" fill="#6366f1"/>
+    <rect x="140" y="196" width="4" height="12" fill="#6366f1"/>
+    <rect x="168" y="196" width="4" height="12" fill="#6366f1"/>
+    <rect x="148" y="174" width="18" height="18" fill="#c68a5b"/>
+    <rect x="146" y="170" width="22" height="7" fill="#1f2937"/>
+    <rect x="160" y="180" width="3" height="4" fill="#111827"/>
+    <rect x="151" y="198" width="10" height="8" fill="#e5e7eb"/>
+    <g class="legA"><rect x="146" y="214" width="7" height="16" fill="#1f2937"/><rect x="160" y="214" width="7" height="10" fill="#1f2937"/></g>
+    <g class="legB"><rect x="146" y="214" width="7" height="10" fill="#1f2937"/><rect x="160" y="214" width="7" height="16" fill="#1f2937"/></g>
+  </g>
+  <text class="xp" x="178" y="120" font-size="13" font-weight="bold" fill="#22c55e">+100 XP</text>
+
+  <!-- HUD -->
+  <text x="20" y="30" font-size="14" font-weight="bold" fill="#e0e7ff">DEVANSH</text>
+  <text x="20" y="48" font-size="11" fill="#a5b4fc">LV.99 FRONTEND MAGE</text>
+  <text x="400" y="34" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="4">WORLD 1-1: PROD</text>
+  <text x="780" y="30" font-size="16" fill="#f43f5e" text-anchor="end">♥ ♥ ♥</text>
+  <text x="780" y="48" font-size="11" fill="#a5b4fc" text-anchor="end">LIVES: ∞ (ships on fridays)</text>
+
+  <text class="blink" x="400" y="268" font-size="12" font-weight="bold" fill="#fbbf24" text-anchor="middle">▼  SCROLL DOWN TO START THE QUEST  ▼</text>
+</svg>

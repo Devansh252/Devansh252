@@ -1,97 +1,131 @@
 <div align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Devansh running through World 1-1: PROD, jumping over bugs and collecting TypeScript coins" />
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=600&lines=hey%2C+I'm+Devansh+%F0%9F%91%8B%F0%9F%8F%BE;I+make+fast+things+feel+calm.;founding+engineer+%40+fireplace.gg;currently%3A+probably+refactoring+something" alt="intro" />
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════╗
+║   SAVE FILE FOUND: devansh.sav                       ║
+║   Location: Bangalore · Playtime: 4+ years           ║
+║   Last checkpoint: Founding Engineer @ fireplace.gg  ║
+╚══════════════════════════════════════════════════════╝
+```
+
+**This README is a game. Click each ▶ to play. Every level unlocks the next one.**
 
 </div>
+
+<details>
+<summary><b>▶ LEVEL 1 · Wake up</b></summary>
+<br />
+
+> *You wake up in a dark room. A single terminal is glowing. Someone left a note on the keyboard: "type whoami".*
 
 ```console
 devansh@bangalore:~$ whoami
 frontend engineer who treats latency like a personal insult.
-I build real-time apps, tools other devs build on,
+builds real-time apps, tools other devs build on,
 and the tiny details nobody notices until they're missing.
-
-devansh@bangalore:~$ uptime
-up 4+ years · load average: chai, code, games
 ```
 
----
+🏆 **Achievement unlocked:** *Hello, World*
 
-### 🎮 Character sheet
+<details>
+<summary><b>▶ LEVEL 2 · Open the inventory</b></summary>
+<br />
+
+> *Your backpack is heavier than expected. Most of it is TypeScript.*
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,graphql,py,git,figma,vscode&perline=10" alt="inventory" />
+</p>
 
 ```text
-┌──────────────────────────────────────────────────────────┐
-│  DEVANSH   ·   Lv. 26   ·   Class: Frontend Mage          │
-├──────────────────────────────────────────────────────────┤
-│  DEBUGGING        ████████████████████░░   92             │
-│  PIXEL-PUSHING    ███████████████████░░░   88             │
-│  WEBSOCKET MAGIC  ████████████████████░░   90             │
-│  TYPE SAFETY      █████████████████████░   97             │
-│  CSS PATIENCE     ███████████░░░░░░░░░░░   52  (it varies) │
-│  MEETING STAMINA  ████░░░░░░░░░░░░░░░░░░   18             │
-├──────────────────────────────────────────────────────────┤
-│  Passive:  ships on Fridays and lives to tell the tale    │
-│  Weakness: "just one more refactor"                       │
-└──────────────────────────────────────────────────────────┘
+EQUIPPED   ⚔️  Strict TypeScript      +40 sanity
+           🛡️  Optimistic UI          blocks 100% of spinners
+           💍  Ring of WebSockets     reconnects... eventually
 ```
 
----
+🏆 **Achievement unlocked:** *Fully Typed*
 
-### 🌶️ Hot takes
+<details>
+<summary><b>▶ LEVEL 3 · Boss fight</b></summary>
+<br />
+
+> *The ground shakes. A wild **LATENCY** appears!*
+
+```text
+LATENCY ████████████████████  HP 400ms
+
+What will you do?
+  ▸ Add a loading spinner        ✗  "It's not very effective..."
+  ▸ Blame the backend            ✗  "The backend blamed you back."
+  ▸ Optimistic update + memo     ✓  "It's super effective!"
+
+LATENCY ░░░░░░░░░░░░░░░░░░░░  HP 0ms   ✦ defeated ✦
+```
+
+🏆 **Achievement unlocked:** *Sub-100ms or It Didn't Happen*
+
+<details>
+<summary><b>▶ LEVEL 4 · The secret room</b></summary>
+<br />
+
+> *Behind a cracked wall, you find a dusty scroll of forbidden opinions.*
 
 ```diff
-+ TypeScript strict mode is a form of self-care
-+ optimistic UI > loading spinners, every single time
-+ if a tool is annoying to use, that's a bug, not a skill issue
 + hover states are a love language
++ if a tool is annoying to use, that's a bug
++ dark mode ships before the README
 - `any` is a cry for help
-- prop drilling in 2026
 - meetings that could have been a PR comment
 ```
 
----
+> *There's also a sticky note:* "my day job is prediction markets. odds I say *'just one more refactor'* this week: **94¢**"
 
-### 📈 Live odds
+🏆 **Achievement unlocked:** *Hot Take Collector*
 
-> Day job is prediction markets, so here's my week, priced.
+<details>
+<summary><b>▶ FINAL LEVEL · Co-op mode</b></summary>
+<br />
 
-| Market | YES |
-|---|:---:|
-| Says "just one more refactor" before Friday | **94¢** |
-| Adds dark mode before writing the README | **99¢** |
-| Plays a video game this weekend | **88¢** |
-
----
-
-### 🛠️ Things in my hands right now
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,graphql,py,git,figma,vscode&perline=10" alt="stack" />
-</p>
-
----
-
-### 🧾 Recent commits to life
-
-```console
-$ git log --oneline --author="devansh"
-a1f9c2e  fix: the fix for the fix
-7be04d1  feat: made it fast, then made it faster
-3c19e88  chore: renamed everything, now it makes sense
-e02aa7f  feat: added dark mode (priority: critical)
-91d3b40  revert: "made it faster" (it was not faster)
-```
-
----
+> *A door opens. On the other side: you. Every good game is better in co-op.*
 
 <div align="center">
 
-### 🕹️ Press start to connect
+<a href="https://www.linkedin.com/in/devansh-shukla-433956169"><img src="https://img.shields.io/badge/P2-join_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" /></a>
+<a href="https://devansh.site"><img src="https://img.shields.io/badge/WORLD_MAP-devansh.site-6366f1?style=for-the-badge&labelColor=0d1117" /></a>
+<a href="mailto:shukladevansh007@gmail.com"><img src="https://img.shields.io/badge/SEND-a_message-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" /></a>
 
-<a href="https://www.linkedin.com/in/devansh-shukla-433956169"><img src="https://img.shields.io/badge/LinkedIn-say_hi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" /></a>
-<a href="https://devansh.site"><img src="https://img.shields.io/badge/devansh.site-look_around-6366f1?style=for-the-badge&logoColor=white&labelColor=0d1117" /></a>
-<a href="mailto:shukladevansh007@gmail.com"><img src="https://img.shields.io/badge/Email-drop_a_line-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" /></a>
+```text
+★ ★ ★  GAME COMPLETE  ★ ★ ★
+  You found every level. Most visitors don't.
+  Send me "1-1" and I'll know you made it.
+```
 
-<br /><br />
+🏆 **Achievement unlocked:** *100% Completion*
+
+</div>
+
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<br />
+
+<div align="center">
+
+### 🐍 Bonus level · a snake eats my commits every night
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Devansh252/Devansh252/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Devansh252/Devansh252/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<br />
 
 <img src="https://komarev.com/ghpvc/?username=Devansh252&style=flat-square&color=6366f1&label=players+joined" />
 
